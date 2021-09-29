@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+    <title>Document</title>
+
+    <style>
+        /* Global Styling */
+html, body {margin:0px; padding: 0px;}
+
+/* nav {
+    background-color: white;
+    height: 80px;
+		position: fixed;
+		width: 100vw;
+		top: 0;
+		z-index: 999;
+} */
+
+#logo {height: 80px; margin-left: 20px;}
+
+.wrapper {
+    padding: 50px 50px;
+    max-width: 481px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: 80px;
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    width: 100%;
+    margin: 20px;
+    height: 573px;
+    
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+	cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+}
+
+/* Several different images */
+.bg-one {background-image: url(1.png);}
+.bg-two {background-image: url(2.png);}
+        .bg-three {background-image: url(3.png);}
+        .bg-four {background-image: url(4.png);}
+        .bg-five {background-image: url(5.png);}
+        .bg-six {background-image: url(6.png);}
+        .bg-seven {background-image: url(7.png);}
+        .bg-eight {background-image: url(8.png);}
+        .bg-nine {background-image: url(9.png);}
+        .bg-ten {background-image: url(10.png);}
+        .bg-eleven {background-image: url(11.png);}
+        .bg-twelve {background-image: url(12.png);}
+
+
+a {
+    display: none;
+    
+    
+    
+    
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(52,73,94,0.75); */
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+		.wrapper {padding: 20px 20px;}
+}
+
+
+
+
+/* .hello {display: none} */
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="parent" onclick="">
+            <div class="child bg-one">
+                <!-- <a href="#">Los Angeles</a> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

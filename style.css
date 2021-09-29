@@ -1,0 +1,402 @@
+@font-face {
+  font-family: "font-medium";
+  src: url("./fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "font-bold";
+  src: url("./fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "font-regular";
+  src: url("./fonts/Gilroy-Light.ttf");
+}
+
+@font-face {
+  font-family: "font-extra";
+  src: url("./fonts/Gilroy-Heavy.ttf");
+}
+
+
+
+
+* {
+  background-color: white;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+
+.middle1 {
+  text-align: center;
+}
+
+.logo1 {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.navitem {
+  margin-right: 50px;
+}
+
+.nav_1 {
+  font-family: "font-medium";
+  font-weight: 500;
+  margin: 10px 10px 10px 10px;
+  font-size: 13px;
+}
+
+.btn{
+ 
+ font-family: "font-bold";
+ color: white;
+ background-color: black;
+ font-size: 13px;
+ border-radius: 0px;
+ padding: 10px 60px 10px 60px;
+ letter-spacing: 3px;
+}
+
+.btn:hover{
+  color: black;
+  background-color: #e2e3e7;
+  /* border: 5px; */
+}
+
+.text{
+  
+  font-family: "Oxanium";
+  color: black;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.icons{
+  text-align: center;
+  
+}
+
+
+
+* {
+  
+}
+
+
+
+.share {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 0;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.share li {
+  position: relative;
+}
+
+/* Social Link 1 */
+
+.share li:nth-of-type(1) .social-link,
+.share li:nth-of-type(1) .social-link:hover {
+  background: transparent url("./linkedin.png") 50% 50% no-repeat;
+  background-size: 25px auto;
+}
+
+.share li:nth-of-type(1) .nav-label {
+  -moz-transition: background 0.4s ease, -moz-transform 0.4s ease 0.1s;
+  -o-transition: background 0.4s ease, -o-transform 0.4s ease 0.1s;
+  -webkit-transition: background 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: background 0.4s ease, transform 0.4s ease 0.1s;
+  background: transparent;
+}
+
+.share li:nth-of-type(1) .social-link:hover .nav-label {
+  -moz-transition: -moz-transform 0.4s ease, background 0.4s ease 0.1s;
+  -o-transition: -o-transform 0.4s ease, background 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease, background 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: transform 0.4s ease, background 0.4s ease 0.1s;
+  background: transparent;
+}
+
+
+/* Social Link 2 */
+
+.share li:nth-of-type(2) .social-link,
+.share li:nth-of-type(2) .social-link:hover {
+  background: transparent url("./wikipedia.png") 50% 50% no-repeat;
+  background-size: 25px auto;
+}
+
+.share li:nth-of-type(2) .nav-label {
+  -moz-transition: background 0.4s ease, -moz-transform 0.4s ease 0.1s;
+  -o-transition: background 0.4s ease, -o-transform 0.4s ease 0.1s;
+  -webkit-transition: background 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: background 0.4s ease, transform 0.4s ease 0.1s;
+  background: transparent;
+}
+
+.share li:nth-of-type(2) .social-link:hover .nav-label {
+  -moz-transition: -moz-transform 0.4s ease, background 0.4s ease 0.1s;
+  -o-transition: -o-transform 0.4s ease, background 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease, background 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: transform 0.4s ease, background 0.4s ease 0.1s;
+  background: transparent;
+}
+
+/* Social Link 3 */
+
+.share li:nth-of-type(3) .social-link,
+.share li:nth-of-type(3) .social-link:hover {
+  background: transparent url("./facebook.png") 50% 50% no-repeat;
+  background-size: 25px auto;
+}
+
+.share li:nth-of-type(3) .nav-label {
+  -moz-transition: background 0.4s ease, -moz-transform 0.4s ease 0.1s;
+  -o-transition: background 0.4s ease, -o-transform 0.4s ease 0.1s;
+  -webkit-transition: background 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: background 0.4s ease, transform 0.4s ease 0.1s;
+  background: transparent;
+}
+
+.share li:nth-of-type(3) .social-link:hover .nav-label {
+  -moz-transition: -moz-transform 0.4s ease, background 0.4s ease 0.1s;
+  -o-transition: -o-transform 0.4s ease, background 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease, background 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: transform 0.4s ease, background 0.4s ease 0.1s;
+  background: transparent;
+}
+/* Social Link 4 */
+.share li:nth-of-type(4) .social-link,
+.share li:nth-of-type(4) .social-link:hover {
+  background: transparent url("./instagram.png") 50% 50% no-repeat;
+  background-size: 25px auto;
+}
+
+.share li:nth-of-type(4) .nav-label {
+  -moz-transition: background 0.4s ease, -moz-transform 0.4s ease 0.1s;
+  -o-transition: background 0.4s ease, -o-transform 0.4s ease 0.1s;
+  -webkit-transition: background 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: background 0.4s ease, transform 0.4s ease 0.1s;
+  background: transparent;
+}
+
+.share li:nth-of-type(4) .social-link:hover .nav-label {
+  -moz-transition: -moz-transform 0.4s ease, background 0.4s ease 0.1s;
+  -o-transition: -o-transform 0.4s ease, background 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease, background 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: transform 0.4s ease, background 0.4s ease 0.1s;
+  background: transparent;
+}
+
+
+
+/* Social Link 5 */
+.share li:nth-of-type(5) .social-link,
+.share li:nth-of-type(5) .social-link:hover {
+  background: transparent url("./dribbble.png") 50% 50% no-repeat;
+  background-size: 25px auto;
+}
+
+.share li:nth-of-type(5) .nav-label {
+  -moz-transition: background 0.4s ease, -moz-transform 0.4s ease 0.1s;
+  -o-transition: background 0.4s ease, -o-transform 0.4s ease 0.1s;
+  -webkit-transition: background 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: background 0.4s ease, transform 0.4s ease 0.1s;
+  background: transparent;
+}
+
+.share li:nth-of-type(5) .social-link:hover .nav-label {
+  -moz-transition: -moz-transform 0.4s ease, background 0.4s ease 0.1s;
+  -o-transition: -o-transform 0.4s ease, background 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease, background 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: transform 0.4s ease, background 0.4s ease 0.1s;
+  background: transparent;
+}
+
+
+
+/* Social Link 6 */
+
+.share li:nth-of-type(6) .social-link,
+.share li:nth-of-type(6) .social-link:hover {
+  background: transparent url("./behance.png") 50% 50% no-repeat;
+  background-size: 25px auto;
+}
+
+.share li:nth-of-type(6) .nav-label {
+  -moz-transition: background 0.4s ease, -moz-transform 0.4s ease 0.1s;
+  -o-transition: background 0.4s ease, -o-transform 0.4s ease 0.1s;
+  -webkit-transition: background 0.4s ease, -webkit-transform 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: background 0.4s ease, transform 0.4s ease 0.1s;
+  background: transparent;
+}
+
+.share li:nth-of-type(3) .social-link:hover .nav-label {
+  -moz-transition: -moz-transform 0.4s ease, background 0.4s ease 0.1s;
+  -o-transition: -o-transform 0.4s ease, background 0.4s ease 0.1s;
+  -webkit-transition: -webkit-transform 0.4s ease, background 0.4s ease;
+  -webkit-transition-delay: 0s, 0.1s;
+  transition: transform 0.4s ease, background 0.4s ease 0.1s;
+  background: transparent;
+}
+
+
+
+.share li .social-link {
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 2px 5px;
+}
+
+.share li .social-link .nav-label {
+  font-family: "Oxanium";
+  font-size: 12px;
+  color: black;
+  display: block;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  top: 0rem;
+  margin-left: 40px;
+  line-height: 50px;
+  padding: 0 20px;
+  white-space: nowrap;
+  z-index: 4;
+  -moz-transition: -moz-transform 0.4s ease;
+  -o-transition: -o-transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  -moz-transform-origin: left 50%;
+  -ms-transform-origin: left 50%;
+  -webkit-transform-origin: left 50%;
+  transform-origin: left 50%;
+  -moz-transform: rotateY(-90deg);
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+
+.share li .social-link .nav-label span {
+  -moz-transform-origin: left 50%;
+  -ms-transform-origin: left 50%;
+  -webkit-transform-origin: left 50%;
+  transform-origin: left 50%;
+  -moz-transform: rotateY(-90deg);
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+
+.share li .social-link:hover .nav-label,
+.share li .social-link:hover .nav-label span {
+  -moz-transform: rotateY(0);
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+.padding-all{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.zoom {
+  
+  transition: transform 1.0s;
+  
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+.title-1 {
+  font-family: "font-medium";
+  color: #BACBD2;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.set-2{
+  padding-top: 150px;
+}
+
+.title-2{
+  font-size: 28px;
+  font-family: "font-bold";
+}
+
+.title-3{
+  font-size: 18px;
+  font-family: "font-medium";
+  padding-top: 50px;
+  
+}
+.port-title{
+  font-size: 50px;
+  font-family: "font-bold";
+  margin-top: 100px;
+  
+}
+.copyrights{
+  font-size: 18px;
+  font-family: "font-medium";
+}
+
+a{
+  color: #AFE875;
+  text-decoration: none; 
+}
+
+a:hover{
+  color: #AFE875;
+  text-decoration: none; 
+  
+}
+
+.enf-logo{
+  height: 30px;
+}
+
+.footer-end{
+  background-color: #242424;
+  height: 100px;
+}
+
+.footer-text{
+  font-size: 15px;
+  font-family: "font-medium";
+  color: white;
+}
+
+.weapon{
+  margin-top: 20px;
+}
+.head-svg{
+  width: 100%;
+  text-align: center;
+}
